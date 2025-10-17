@@ -4,7 +4,7 @@
     docker network create my_network
     docker network ls
 
-## Copy code from run_containers/mysql.txt and paste into nterminal
+## Copy code from run_containers_script/mysql.txt and paste into nterminal
     It will start mysql database container
 
     Wait 10s for MySQL to initialize
@@ -12,7 +12,7 @@
 ## Build the Flask Docker Image (it will use Dockerfile)
 docker build -t flask-app .
 
-## Copy code from run_containers/pythonapp.txt and paste into nterminal
+## Copy code from run_containers_scripts/pythonapp.txt and paste into nterminal
     It will start the python-flask container
 
 ## Copy code from run_containers/pythonapp.txt and paste into nterminal

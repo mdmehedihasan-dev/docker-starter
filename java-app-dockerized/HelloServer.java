@@ -17,7 +17,7 @@ public class HelloServer {
     static class HelloHandler implements HttpHandler {
         public void handle(HttpExchange exchange) {
             try {
-                String response = "Walla, hello from Dockerized Java!";
+                String response = "Walla, hello from Dockerized Java! Holla";
                 exchange.getResponseHeaders().add("Content-Type", "text/plain; charset=utf-8");
                 exchange.sendResponseHeaders(200, response.getBytes("UTF-8").length);
                 OutputStream os = exchange.getResponseBody();
